@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 10px;
+}
+
+body{
+    background-color: #7d5fff;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    position: relative;
+    height: 5rem;
+    width: 25rem;
+}
+#searchinput{
+    padding: 1.5rem;
+    width: 80%;
+    height: 100%;
+    font-size: 1.8rem;
+    border: 0px;
+
+}
+
+.searchbutton{
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: white;
+    width:5rem;
+    height: 5rem;
+    border: 0 transparent;
+    font-size: 2.4rem;
+    font-weight: 900;
+    
+}
+
+input:focus{
+    outline: none;
+}
