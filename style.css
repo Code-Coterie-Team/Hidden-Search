@@ -50,10 +50,10 @@ input:focus{
     outline: none;
 }
 
-.searchinput.active{
+.main.active .searchinput{
    width: 20rem;
 }
 
- .searchbutton.active{
+ .main.active .searchbutton{
     transform: translateX(200px);
 }
