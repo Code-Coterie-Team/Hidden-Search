@@ -21,12 +21,13 @@ body{
     height: 5rem;
     width: 25rem;
 }
-#searchinput{
+.searchinput{
     padding: 1.5rem;
-    width: 80%;
+    width: 5rem;
     height: 100%;
     font-size: 1.8rem;
     border: 0px;
+    transition: width 0.5s ease;
 
 }
 
@@ -34,16 +35,25 @@ body{
     cursor: pointer;
     position: absolute;
     top: 0px;
-    right: 0px;
+    left: 0px;
     background-color: white;
     width:5rem;
-    height: 5rem;
+    height: 100%;
     border: 0 transparent;
     font-size: 2.4rem;
     font-weight: 900;
+    transition: transform 0.5s ease;
     
 }
 
 input:focus{
     outline: none;
+}
+
+.searchinput.active{
+   width: 20rem;
+}
+
+ .searchbutton.active{
+    transform: translateX(200px);
 }
